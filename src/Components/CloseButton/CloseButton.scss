@@ -1,0 +1,51 @@
+$beige: #EAE7DE;
+$caramel: #c7a17a;
+$brown: #30271c;
+$greyfont: #666;
+
+.search-area {
+    padding: 20px 55px;
+    // position: absolute;
+    // top: 0%;
+    // left: 0%;
+    // width: 100%;
+    // height: 70px;
+    background-color: white;
+    color: $caramel;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    input {
+        outline: none;
+        width: 70%;
+        border: none;
+        height: 100%;
+    }
+
+    input::placeholder,
+    input[type=text],
+    select {
+        font-size: 20px;
+        color: $caramel;
+        font-weight: 700;
+        font-style: italic;
+        font-family: 'Merriweather', serif;
+    }
+
+    .close-button {
+        font-size: 20px;
+        cursor: pointer;
+        color: black;
+        transition: 0.2s ease-in-out;
+
+        &:hover {
+            color: $caramel;
+        }
+    }
+
+    // &.active-search{
+    //     opacity: 1;
+    //     visibility: visible;
+    // }
+}

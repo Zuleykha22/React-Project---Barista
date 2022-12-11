@@ -1,0 +1,111 @@
+$beige: #EAE7DE;
+$caramel: #c7a17a;
+$brown: #30271c;
+$greyfont: #666;
+
+.coffee-details {
+    width: 100%;
+    padding: 100px 0;
+    // height: 100vh;
+    font-family: 'Oswald', sans-serif;
+
+    .coffee-tools {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 85%;
+        margin: auto;
+        margin-bottom: 70px;
+
+        .coffee-tool {
+            text-align: center;
+            width: 22%;
+
+            img {
+                width: 35%;
+                margin-bottom: 15px;
+            }
+
+            p {
+                margin-top: 20px;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-size: 15px;
+                line-height: 26px;
+                color: #666;
+                font-weight: 400;
+            }
+        }
+    }
+
+    .coffee-details-bottom {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        .coffee-details-bottom-text {
+            width: 50%;
+            position: relative;
+
+            img {
+                width: 100%;
+            }
+
+            .coffee-img-overlay {
+                position: absolute;
+                width: 65%;
+                height: 100%;
+                top: 0%;
+                left: 0%;
+                padding: 50px 25px;
+                color: white;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                .coffee-img-overlay{
+                   p {
+                    margin-top: 20px;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-size: 14px;
+                    line-height: 26px;
+                    font-weight: 400;
+                } 
+                }
+                
+
+                h5 {
+                    margin: 15px 0;
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                    color: white;
+                    font-size: 12px;
+                    font-weight: 900;
+                    letter-spacing: 2.5px;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+                    .arrow-right-book {
+                        font-size: 15px;
+                        margin-left: 5px;
+                        transform: translate(1);
+                        transition: 0.3s ease-in-out;
+                    }
+
+                    &:hover {
+                        .arrow-right-book {
+                            transform: translateX(7px);
+                        }
+                    }
+                }
+            }
+        }
+        .coffee-details-bottom-right{
+            // margin-top: 75px;
+            width: 50%;
+        }
+    }
+}
+
+.bottom-line{
+    fill: beige;
+}

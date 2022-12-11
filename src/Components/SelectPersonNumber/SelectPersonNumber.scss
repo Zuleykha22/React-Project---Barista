@@ -1,0 +1,37 @@
+$beige: #EAE7DE;
+$caramel: #c7a17a;
+$brown: #30271c;
+$greyfont: #666;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form{
+    font-family: 'Merriweather', serif;
+    // padding: 18px 45px 18px 15px;
+    // width: 100%;
+    font-style: italic;
+    color: #30271c;
+    font-size: 14px;
+    border-radius: 3px;
+    border: 0px transparent;
+    background-color: white;
+   
+}
+ .names{
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    color: green;   
+    font-size: 12px;
+    font-weight: 600;
+}
+.em{
+    text-align: start;
+    font-family: 'Merriweather', serif;
+    color: #30271c;    
+    font-size: 14px;
+    font-weight: 600;
+}
